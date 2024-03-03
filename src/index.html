@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +14,64 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="images/boloAniversario.png" alt="Bolo de Aniversario">
             <p class="hero__text">
-                A festa de 17 anos do matheus começa em 68d 13h 22m 47s
+                você foi convidado(a) para comemorar os 17 anos do theus! <br> <span> 68d 13h 22m 47s </span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Theus Lounge - Vila Madalena - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        19/11/2024 às 18hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    confirmar presença
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--espaco">
+        <div class="container" data-aos="zoom-in-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Espaço</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id consectetur necessitatibus velit.
+                    Nemo at provident incidunt suscipit architecto praesentium voluptates quod fuga, deleniti assumenda,
+                    dolorum consectetur. Repellat, temporibus nulla.
+                </p>
+            </div>
+            <img class="event__image" src="images/lounge.png" alt="Lounge">
+        </div>
+    </section>
+
+    <section class="event event--presentes event--image-left">
+        <div class="container" data-aos="zoom-in-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Presentes</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id consectetur necessitatibus velit.
+                    Nemo at provident incidunt suscipit architecto praesentium voluptates quod fuga, deleniti assumenda,
+                    dolorum consectetur. Repellat, temporibus nulla.
+                </p>
+            </div>
+            <img class="event__image" src="images/presente.png" alt="Lounge">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
+
 </html>
